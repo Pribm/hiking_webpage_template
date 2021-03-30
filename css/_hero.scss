@@ -1,0 +1,61 @@
+.hero{
+    position: relative;
+    video{
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        object-position: left;
+    }
+
+
+    h1{
+        color: #ffffff;
+        font-family: Open Sans ExtraBold;
+        text-transform: uppercase;
+        line-height: 1.2;
+        text-align: left;
+        text-shadow: 0px 10px 10px rgba(84, 82, 79, 0.76);
+    }
+
+    h5{
+        display: inline-block;
+        padding: 5px;
+        background-color: beige;
+        color: #7f7770;
+        font-family: Open Sans BoldItalic;
+        letter-spacing: 8px;
+        text-transform: uppercase;
+       
+        text-shadow: 0px 5px 5px rgba(84, 82, 79, 0.22);
+        margin-bottom: 20px;
+    }
+
+    p{
+        color: white;
+        font-family: Open Sans Bold;
+        
+    }
+
+    button{
+        border-radius: 30px;
+        font-family: Open Sans ExtraBold;
+        text-transform: uppercase;
+        color: #7f7770;
+    }
+
+    .shape_bottom{
+        width: 100vw;
+        height: 80px;
+        
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: url('../assets/img/Shape-bottom.png') repeat-x;
+        object-fit: cover;
+        object-position: top;
+
+    }
+
+}
+
+  

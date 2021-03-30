@@ -1,0 +1,67 @@
+.discounts_1{
+    .text-side{
+        background-color: $primary;
+
+        h1{
+            font-family: Open Sans Bold;
+        }
+
+        p{
+            font-family: Open Sans Regular;
+            line-height: 3rem;
+        }
+
+        button{
+            background-color: $secondary;
+            border: none;
+            border-radius: 30px;
+            color: white;
+            padding-inline: 60px;
+            text-transform:  uppercase;
+            font-family: Open Sans Bold;
+            font-size: 1.5rem;
+        }
+    }
+
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        
+    }
+}
+
+.discounts_2{
+    .text-side{
+        background-color: #deb37e;
+
+        h1{
+            font-family: Open Sans Bold;
+        }
+
+        p{
+            font-family: Open Sans Regular;
+            line-height: 3rem;
+        }
+
+        button{
+            background-color: $secondary;
+            border: none;
+            border-radius: 30px;
+            color: white;
+            padding-inline: 60px;
+            text-transform:  uppercase;
+            font-family: Open Sans Bold;
+            font-size: 1.5rem;
+        }
+    }
+
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        
+    }
+}

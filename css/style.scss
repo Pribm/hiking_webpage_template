@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.bg-custom-primary{
+    background-color: #7f7770;
+}
+
+
+
+
+@import 'fonts';
+@import 'colors';
+@import 'navbar';
+@import 'hero';
+@import 'letsGoSection';
+@import 'discounts';

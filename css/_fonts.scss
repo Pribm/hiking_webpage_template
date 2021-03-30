@@ -1,0 +1,15 @@
+$fontTypes: (
+    'Regular',
+    'Bold',
+    'ExtraBold',
+    'SemiBoldItalic',
+    'BoldItalic',
+    'Light'
+);
+
+@each $fontStyle in $fontTypes {
+    @font-face{
+        font-family: 'Open Sans #{$fontStyle}';
+        src: url('../assets/fonts/OpenSans-#{$fontStyle}.ttf');
+    }
+}
